@@ -21,4 +21,4 @@ Route::get('login','userController@login');
 Route::post('post_login','userController@post_login');
 
 Route::get('register','userController@register');
-Route::post('post_reg','userController@post_reg');
+Route::post('post_register','userController@post_register');
