@@ -21,9 +21,13 @@ class userController extends Controller
 
     public function register()
     {
-        $param['dataProvinsi'] = ProvinsiModel::all();
-        $param['dataKota'] = kotaModel::all();
-        return view('register',with($param));
+        $dataProvinsi = provinsiModel::all();
+        $dataKota = kotaModel::all();
+        // return view('register',with($param));
+        return view('register',[
+            "dataProvinsi"=> $dataProvinsi,
+            "dataKota"=>$dataKota
+        ])
     }
 
     public function post_register(Request $request)

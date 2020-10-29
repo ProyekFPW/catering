@@ -4,8 +4,8 @@
         @csrf
         <h3> Bibik's Catering</h3>
         <h3 style="font-size:15px;">Register User</h3>
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('js/main.js')}}">
+        <link rel="stylesheet" href="colorlib-regform-26/css/style.css">
+        <link rel="stylesheet" href="colorlib-regform-26/js/main.js">
         <div class="form-holder">
             <span class="lnr lnr-user"></span>
             <input type="text" id="namadepan_akun" class="form-control" placeholder="Nama Depan" name="inpNamaDepan">
